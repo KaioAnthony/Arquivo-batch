@@ -3,7 +3,7 @@
 REM CRIANDO DIRETORIO
 mkdir Carlitos
 
-echo Carlitos foi criado e vai ser deletado em cinco segundos.
+echo Carlitos foi criado e vai ser deletado em cinco segundos
 
 REM TEMPO 
 timeout /t 5 /nobreak
@@ -14,7 +14,7 @@ rmdir Carlitos
 REM CRIANDO UM DIRETORIO PARA CRIAR ARQUIVOS
 mkdir "Irmao do Carlitos"
 
-echo Irmao do Carlitos foi criado e vai fazer alguns arquivos.
+echo Irmao do Carlitos foi criado e vai fazer alguns arquivos
 
 REM TEMPO
 timeout /t 5 /nobreak
@@ -25,7 +25,7 @@ cd "Irmao do Carlitos"
 REM CRIANDO O ARQUIVO NA PASTA IRMAO DO CARLITOS
 echo. >arquivo.txt
 
-echo O arquivo vai ser deletado em cinco segundos.
+echo O arquivo vai ser deletado em cinco segundos
 
 REM TEMPO
 timeout /t 5 /nobreak
@@ -56,7 +56,7 @@ REM CRIANDO OUTRA PASTA PARA MOVER O ARQUIVO QUE ESTÁ NA PASTA IRMAO DO CARLITO
 cd ..
 mkdir "Primo do Carlitos"
 
-echo Primo do Carlitos foi criado para mover arquivos.
+echo Primo do Carlitos foi criado para mover arquivos
 
 REM TEMPO
 timeout /t 5 /nobreak
@@ -70,7 +70,7 @@ echo Arquivo movido com sucesso!
 REM TEMPO
 timeout /t 5 /nobreak
 
-echo O arquivo que esta na pasta Primo do Carlitos sera renomeada em cinco segundos.
+echo O arquivo que esta na pasta Primo do Carlitos sera renomeada em cinco segundos
 
 REM TEMPO
 timeout /t 5 /nobreak
@@ -89,7 +89,7 @@ echo eu gosto de banana > "C:\Users\Aluno\Desktop\Trabalho do Senai\Primo do Car
 REM MOSTRANDO OQUE ESTÁ ESCRITO NO ARQUIVO.TXT
 type "C:\Users\Aluno\Desktop\Trabalho do Senai\Primo do Carlitos\arquivo_do_primo_do_carlitos.txt"
 
-echo Agora as pastas do primo do carlitos e o irmao do carlitos serao deletadas.
+echo Agora as pastas do primo do carlitos e o irmao do carlitos serao deletadas
 
 REM TEMPO
 timeout /t 5 /nobreak
