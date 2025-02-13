@@ -86,6 +86,9 @@ timeout /t 5 /nobreak
 REM ESCREVENDO NO AQUIRVO.TXT
 echo eu gosto de banana > "C:\Users\Aluno\Desktop\Trabalho do Senai\Primo do Carlitos\arquivo_do_primo_do_carlitos.txt"
 
+REM TEMPO
+timeout /t 5 /nobreak
+
 REM MOSTRANDO OQUE ESTÁ ESCRITO NO ARQUIVO.TXT
 type "C:\Users\Aluno\Desktop\Trabalho do Senai\Primo do Carlitos\arquivo_do_primo_do_carlitos.txt"
 
