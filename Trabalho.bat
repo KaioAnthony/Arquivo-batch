@@ -1,7 +1,5 @@
 @echo off
 
-REM AVISANDO QUE PARA FUNCIONAR, TERA QUE REAJUSTAR ALGUMAS COISA NA PROGAMAÇÃO!
-
 REM CRIANDO DIRETORIO
 mkdir Carlitos
 
@@ -46,7 +44,7 @@ echo. >arquivo_do_irmao_do_carlitos.txt
 echo Arquivo criado!
 
 timeout /t 5 /nobreak
-copy "D:\Trabalho do Senai\Irmao do Carlitos\arquivo_do_irmao_do_carlitos.txt" "D:\Trabalho do Senai\Irmao do Carlitos\copia_arquivo.txt"
+copy "C:\Users\Aluno\Desktop\Trabalho do Senai\Irmao do Carlitos\arquivo_do_irmao_do_carlitos.txt" "C:\Users\Aluno\Desktop\Trabalho do Senai\Irmao do Carlitos\copia_arquivo.txt"
 
 echo Arquivo Copiado!
 
@@ -65,7 +63,7 @@ timeout /t 5 /nobreak
 
 REM MOVENDO O ARQUIVO
 cd "Primo do Carlitos"
-move "D:\Trabalho do Senai\Irmao do Carlitos\copia_arquivo.txt" "D:\Trabalho do Senai\Primo do Carlitos\copia_arquivo.txt"
+move "C:\Users\Aluno\Desktop\Trabalho do Senai\Irmao do Carlitos\copia_arquivo.txt" "C:\Users\Aluno\Desktop\Trabalho do Senai\Primo do Carlitos\copia_arquivo.txt"
 
 echo Arquivo movido com sucesso!
 
@@ -78,7 +76,7 @@ REM TEMPO
 timeout /t 5 /nobreak
 
 REM RENOMEANDO ARQUIVO
-ren "D:\Trabalho do Senai\Primo do Carlitos\copia_arquivo.txt" "arquivo_do_primo_do_carlitos.txt"
+ren "C:\Users\Aluno\Desktop\Trabalho do Senai\Primo do Carlitos\copia_arquivo.txt" "arquivo_do_primo_do_carlitos.txt"
 
 echo Em cinco segundos ira mostrar oque esta escrito no arquivo do Primo do Carlitos
 
@@ -86,10 +84,10 @@ REM TEMPO
 timeout /t 5 /nobreak
 
 REM ESCREVENDO NO AQUIRVO.TXT
-echo eu gosto de banana > "D:\Trabalho do Senai\Primo do Carlitos\arquivo_do_primo_do_carlitos.txt"
+echo eu gosto de banana > "C:\Users\Aluno\Desktop\Trabalho do Senai\Primo do Carlitos\arquivo_do_primo_do_carlitos.txt"
 
 REM MOSTRANDO OQUE ESTÁ ESCRITO NO ARQUIVO.TXT
-type "D:\Trabalho do Senai\Primo do Carlitos\arquivo_do_primo_do_carlitos.txt"
+type "C:\Users\Aluno\Desktop\Trabalho do Senai\Primo do Carlitos\arquivo_do_primo_do_carlitos.txt"
 
 echo Agora as pastas do primo do carlitos e o irmao do carlitos serao deletadas.
 
